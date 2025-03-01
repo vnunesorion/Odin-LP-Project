@@ -109,8 +109,7 @@ a{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-
+    padding: 50px 0px 100px 0px;
 }
 .second-section .container{
     display:flex;
@@ -126,6 +125,33 @@ a{
     padding-top: 40px;
 }
 .card {
-    
     width: 165px;
+}
+.second-section h2{
+    font-size: 36px;
+}
+
+/*Third Section*/
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 0 140px 0;
+}
+.third-section .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.third-section .cite{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;                        
+}
+.third-section .author{
+    text-align: end;
+    font-weight: 600;
+    margin-top: 10px;
 }
